@@ -1,5 +1,9 @@
 # POC SSR with Defer react-router
 
+> **IMPORTANT NOTICE:** this POC does not work because [ReactDOMServer.renderToString() is not compatible with hydratation](https://react.dev/reference/react-dom/server/renderToString).
+> 
+> Use Remix instead: https://remix.run/. Or deal with all the issues yourself.
+
 ## Context
 
 We are using the SSR config (from the official example https://github.com/remix-run/react-router/tree/dev/examples/ssr-data-router).
